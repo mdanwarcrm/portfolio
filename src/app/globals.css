@@ -382,7 +382,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .resume-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; }
 
 .clients-section h2 { margin-block: clamp(4rem, 8vw, 8rem); }
-.clients-section__context { max-width: 46rem; margin: calc(-1 * clamp(2rem, 4vw, 4rem)) 0 clamp(3rem, 6vw, 6rem) auto; color: var(--color-text-secondary); line-height: 1.7; }
+.clients-section__context { max-width: 46rem; margin: 0 0 clamp(4rem, 7vw, 7rem) auto; padding-top: 0.5rem; color: var(--color-text-secondary); line-height: 1.7; }
 .clients-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--color-border-subtle); border-left: 1px solid var(--color-border-subtle); }
 .clients-grid article { min-height: 15rem; padding: clamp(1.5rem, 3vw, 3rem); border-right: 1px solid var(--color-border-subtle); border-bottom: 1px solid var(--color-border-subtle); }
 .clients-grid h3 { margin: 4rem 0 1rem; color: var(--color-text-primary); font: 600 clamp(1.3rem, 2.5vw, 2.8rem)/1 var(--font-display); letter-spacing: -0.04em; text-transform: uppercase; }
