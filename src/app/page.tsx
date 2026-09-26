@@ -33,7 +33,7 @@ export default function Home() {
           <PageContainer className="hero__inner">
             <SectionEyebrow><DecryptedLabel text="PORTFOLIO / 2026" /></SectionEyebrow>
             <div className="hero-instrumentation" aria-label="Portfolio metadata">
-              <MetadataLabel label="Identity" value="Dindi Narendra Kumar Madala" />
+              <MetadataLabel label="Base" value="India" />
               <MetadataLabel label="Discipline" value="Systems + Technology" />
               <MetadataLabel label="Status" value="Building" accent />
             </div>
@@ -58,7 +58,7 @@ export default function Home() {
             <div className="about-entry__grid">
               <DisplayHeading id="about-title">Real problems.<br /><span>Working systems.</span></DisplayHeading>
               <div className="about-entry__copy">
-                <p>I&apos;m Dindi Narendra Kumar Madala—an entrepreneur, technologist, system builder, and problem solver. My path from transport operations to networks, cyber security, and digital products shaped a practical way of thinking: understand the real workflow first, then build technology around it.</p>
+                <p>I&apos;m Dindi Narendra Kumar Madala—an India-based entrepreneur, technologist, system builder, and problem solver. My path from transport operations in India to network engineering and security analysis across UK client environments shaped a practical way of thinking: understand the real workflow first, then build technology around it.</p>
                 <p className="about-entry__note">Operations taught responsibility. Technology added leverage. Entrepreneurship connected both to outcomes.</p>
               </div>
             </div>

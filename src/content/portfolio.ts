@@ -27,7 +27,7 @@ export const portfolioContent = {
     { period: "2016—2019", category: "Operations", title: "Learning systems in motion", organization: "Transport operations", description: "Built an early understanding of logistics, responsibility, coordination, and how real-world systems behave under pressure.", metadata: ["Phase / 01", "Foundation"] },
     { period: "2019—2021", category: "Networks", title: "From operations to infrastructure", organization: "Networking & technical support", description: "Moved closer to technology through network fundamentals, troubleshooting, infrastructure, and service continuity.", metadata: ["Phase / 02", "Technical depth"] },
     { period: "2021—2023", category: "Cyber Security", title: "Thinking in risks and controls", organization: "Security learning & practice", description: "Developed a security-first mindset: observe systems, understand attack surfaces, reduce risk, and document clearly.", metadata: ["Phase / 03", "Security mindset"] },
-    { period: "2023—Now", category: "Entrepreneurship", title: "Building digital products", organization: "Independent ventures", description: "Combining operational experience, technology, and business thinking to create practical products for real problems.", metadata: ["Phase / 04", "Current"] },
+    { period: "2023—Now", category: "Entrepreneurship", title: "Building digital products", organization: "India", description: "Building India-based ventures by combining operational experience, technology, and business thinking to create practical products for real problems.", metadata: ["Phase / 04", "Current"] },
   ],
   experience,
   education,

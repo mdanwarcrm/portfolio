@@ -8,8 +8,9 @@ export function ClientsHighlights() {
   return <>
     <section className="clients-section" aria-labelledby="clients-title"><PageContainer>
       <SectionEyebrow index="10"><DecryptedLabel text="SELECTED / CLIENT ENVIRONMENTS" /></SectionEyebrow>
-      <h2 id="clients-title">Client<br /><span>environments.</span></h2>
-      <div className="clients-grid">{clients.map((client, index) => <article key={client.name}><span>CLIENT / {String(index + 1).padStart(2, "0")}</span><h3>{client.name}</h3><small>{client.category}</small></article>)}</div>
+      <h2 id="clients-title">UK client<br /><span>environments.</span></h2>
+      <p className="clients-section__context">Worked across these United Kingdom client environments as a Network Engineer and Security Analyst.</p>
+      <div className="clients-grid">{clients.map((client, index) => <article key={client.name}><span>CLIENT / {String(index + 1).padStart(2, "0")}</span><h3>{client.name}</h3><small>{client.category} / {client.location}</small><b>Network Engineer · Security Analyst</b></article>)}</div>
     </PageContainer></section>
     <section className="highlights-strip" aria-label="Professional highlights"><PageContainer className="highlights-strip__grid">{highlights.map(item => <div key={item.label}><strong>{item.value}</strong><span>{item.label}</span></div>)}</PageContainer></section>
   </>;

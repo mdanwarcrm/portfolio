@@ -52,14 +52,14 @@ export function HeroVisual() {
             dotSize={1}
             shape="circle"
             contrast={1.15}
-            trigger={interactive ? "hover" : "off"}
-            idleReveal={0.72}
+            trigger="off"
+            idleReveal={1}
             borderRadius="0"
             style={{}}
           />
-          <span className="hero-visual__asset-label">[ IDENTITY / SYSTEMS ] <small>DNKM</small></span>
+          <span className="hero-visual__asset-label">[ PORTRAIT / DNKM ] <small>India</small></span>
         </div>
-        <p className="hero-visual__meta"><span>Profile / DNKM</span><span>Builder / Entrepreneur</span></p>
+        <p className="hero-visual__meta"><span>Dindi Narendra Kumar</span><span>Entrepreneur / India</span></p>
       </div>
     </div>
   );
