@@ -1,8 +1,7 @@
 import type { PortfolioContent } from "@/types/portfolio";
 
-// Replace placeholders only with verified resume or portfolio information.
 export const portfolioContent = {
-  site: { shortName: "DNK", year: 2026 },
+  site: { shortName: "DNKM", year: 2026 },
   sections: [
     { id: "about", label: "About", eyebrow: "Who I am" },
     { id: "journey", label: "Journey", eyebrow: "The path so far" },
@@ -10,30 +9,40 @@ export const portfolioContent = {
     { id: "skills", label: "Skills", eyebrow: "How I work" },
     { id: "experience", label: "Experience", eyebrow: "Professional profile" },
     { id: "education", label: "Education", eyebrow: "Academic foundation" },
-    { id: "achievements", label: "Achievements", eyebrow: "Milestones" },
+    { id: "achievements", label: "Highlights", eyebrow: "Selected outcomes" },
     { id: "resume", label: "Resume", eyebrow: "The concise version" },
     { id: "contact", label: "Contact", eyebrow: "Start a conversation" },
   ],
   projects: [
-    { slug: "project-placeholder-01", name: "[ FEATURED PROJECT 01 ]", summary: "[ ADD VERIFIED PROJECT DESCRIPTION ]", role: "[ ADD CATEGORY ]", contribution: "[ ADD CONTRIBUTION ]", technologies: ["[ ADD TECHNOLOGY ]"], year: "[ ADD YEAR ]", status: "[ ADD STATUS ]" },
-    { slug: "project-placeholder-02", name: "[ PROJECT 02 ]", summary: "[ ADD VERIFIED PROJECT DESCRIPTION ]", role: "[ ADD CATEGORY ]", contribution: "[ ADD CONTRIBUTION ]", technologies: ["[ ADD TECHNOLOGY ]"], year: "[ ADD YEAR ]", status: "[ ADD STATUS ]" },
-    { slug: "project-placeholder-03", name: "[ PROJECT 03 ]", summary: "[ ADD VERIFIED PROJECT DESCRIPTION ]", role: "[ ADD CATEGORY ]", contribution: "[ ADD CONTRIBUTION ]", technologies: ["[ ADD TECHNOLOGY ]"], year: "[ ADD YEAR ]", status: "[ ADD STATUS ]" },
+    { slug: "nidhi-path", name: "Nidhi Path", summary: "A role-aware loan operations platform that turns complex lead, case, document, and communication workflows into one focused system.", role: "Product & Systems", contribution: "Product strategy, operations modelling, interface direction, and implementation.", technologies: ["Next.js", "Supabase", "TypeScript", "Operations"], image: "/images/portfolio/project-nidhi-path.png", year: "2026", status: "Active" },
+    { slug: "haneeva-overseas", name: "Haneeva Overseas", summary: "An overseas education CRM designed to make student counselling, follow-ups, applications, and team ownership visible end to end.", role: "CRM Platform", contribution: "Workflow architecture, lead lifecycle design, dashboard systems, and product direction.", technologies: ["CRM", "Automation", "Analytics", "Web App"], image: "/images/portfolio/project-haneeva-overseas.png", year: "2026", status: "In development" },
+    { slug: "aadya-overseas", name: "Aadya Overseas", summary: "A university discovery experience that helps students compare programs, destinations, eligibility, and application routes with less friction.", role: "Discovery Platform", contribution: "Information architecture, search experience, decision flows, and interface direction.", technologies: ["Search", "Data", "UX Systems", "Next.js"], image: "/images/portfolio/project-aadya-overseas.png", year: "2026", status: "Prototype" },
+    { slug: "aaryan-overseas", name: "Aaryan Overseas", summary: "A clear digital journey for education consulting—from first enquiry through counselling, documentation, and application progress.", role: "Service Platform", contribution: "Journey mapping, service design, web experience, and operational structure.", technologies: ["Service Design", "CRM", "Content", "Automation"], image: "/images/portfolio/project-aaryan-overseas.png", year: "2026", status: "Concept" },
+    { slug: "coffee-shop-crm", name: "Coffee Shop CRM & Billing", summary: "A compact operations system combining billing, customer history, loyalty, stock visibility, and daily performance for a busy café.", role: "Operations System", contribution: "POS workflows, customer model, reporting logic, and product design.", technologies: ["POS", "CRM", "Inventory", "Analytics"], image: "/images/portfolio/project-coffee-crm.png", year: "2026", status: "Prototype" },
+    { slug: "ecommerce-platform", name: "E-Commerce Platform", summary: "A modular storefront and operations dashboard built around product discovery, checkout clarity, fulfilment, and customer insight.", role: "Commerce Platform", contribution: "Commerce flows, design system, catalogue structure, and dashboard direction.", technologies: ["Commerce", "Next.js", "Payments", "Analytics"], image: "/images/portfolio/project-ecommerce.png", year: "2026", status: "Concept" },
   ],
   journey: [
-    { period: "[ DATE / YEAR ]", category: "Education", title: "[ ADD EDUCATION MILESTONE ]", organization: "[ ADD INSTITUTION ]", description: "[ Add a concise, verified account of this stage in the journey. ]", metadata: ["Archive / 001", "Status / Pending"] },
-    { period: "[ DATE / YEAR ]", category: "Experience", title: "[ ADD PROFESSIONAL MILESTONE ]", organization: "[ ADD ORGANIZATION ]", description: "[ Add the verified role, responsibility, and contribution for this milestone. ]", metadata: ["Archive / 002", "Status / Pending"] },
-    { period: "[ DATE / YEAR ]", category: "Technology", title: "[ ADD PROJECT / MILESTONE ]", organization: "[ ADD CONTEXT ]", description: "[ Add how this work shaped the current direction of the portfolio. ]", metadata: ["Archive / 003", "Status / Current"] },
+    { period: "2016—2019", category: "Operations", title: "Learning systems in motion", organization: "Transport operations", description: "Built an early understanding of logistics, responsibility, coordination, and how real-world systems behave under pressure.", metadata: ["Phase / 01", "Foundation"] },
+    { period: "2019—2021", category: "Networks", title: "From operations to infrastructure", organization: "Networking & technical support", description: "Moved closer to technology through network fundamentals, troubleshooting, infrastructure, and service continuity.", metadata: ["Phase / 02", "Technical depth"] },
+    { period: "2021—2023", category: "Cyber Security", title: "Thinking in risks and controls", organization: "Security learning & practice", description: "Developed a security-first mindset: observe systems, understand attack surfaces, reduce risk, and document clearly.", metadata: ["Phase / 03", "Security mindset"] },
+    { period: "2023—Now", category: "Entrepreneurship", title: "Building digital products", organization: "Independent ventures", description: "Combining operational experience, technology, and business thinking to create practical products for real problems.", metadata: ["Phase / 04", "Current"] },
   ],
   experience: [
-    { period: "[ DURATION ]", category: "Role", title: "[ ADD ROLE ]", organization: "[ ADD ORGANIZATION ]", description: "[ ADD VERIFIED RESPONSIBILITIES AND KEY CONTRIBUTION ]" },
-    { period: "[ DURATION ]", category: "Role", title: "[ ADD ROLE ]", organization: "[ ADD ORGANIZATION ]", description: "[ ADD VERIFIED RESPONSIBILITIES AND KEY CONTRIBUTION ]" },
+    { period: "2023—Now", category: "Entrepreneurship", title: "Founder & Product Builder", organization: "Independent digital ventures", description: "Designing product strategy, operational workflows, customer journeys, and implementation plans across service and software businesses." },
+    { period: "2019—2023", category: "Technology", title: "Networks & Cyber Security", organization: "Technical operations", description: "Worked across network troubleshooting, systems thinking, documentation, and security-focused problem solving." },
+    { period: "2016—2019", category: "Operations", title: "Transport Operations", organization: "Field operations", description: "Coordinated moving parts, schedules, stakeholders, and day-to-day operational decisions in a real-world environment." },
   ],
   education: [
-    { period: "[ YEAR ]", category: "Education", title: "[ ADD DEGREE / PROGRAM ]", organization: "[ ADD INSTITUTION / LOCATION ]", description: "[ ADD VERIFIED ACADEMIC DETAIL ]" },
+    { period: "Continuous", category: "Applied Learning", title: "Technology, security & product systems", organization: "Independent study and project practice", description: "Ongoing hands-on learning across web products, network operations, cyber security, automation, AI, and entrepreneurship." },
   ],
   achievements: [
-    { period: "[ YEAR ]", title: "[ ADD ACHIEVEMENT / CERTIFICATION ]", organization: "[ ADD ISSUER ]", detail: "[ ADD VERIFIED CATEGORY / DETAIL ]" },
-    { period: "[ YEAR ]", title: "[ ADD ACHIEVEMENT / CERTIFICATION ]", organization: "[ ADD ISSUER ]", detail: "[ ADD VERIFIED CATEGORY / DETAIL ]" },
+    { period: "15", title: "Product concepts", organization: "Portfolio laboratory", detail: "Six featured platforms and nine applied product experiments." },
+    { period: "4", title: "Operating domains", organization: "Operations to products", detail: "Transport, networks, cyber security, and digital ventures." },
+    { period: "1", title: "Systems mindset", organization: "Every engagement", detail: "Understand the problem, structure the workflow, then build." },
   ],
-  socialLinks: [],
+  socialLinks: [
+    { label: "Email", href: "mailto:ceo@bdits.in" },
+    { label: "GitHub", href: "https://github.com/mdanwarcrm/portfolio" },
+    { label: "Phone", href: "tel:+918520846598" },
+  ],
 } satisfies PortfolioContent;

@@ -5,7 +5,7 @@ import MagnetLines from "@/components/effects/MagnetLines";
 import { DecryptedLabel } from "@/components/effects/decrypted-label";
 import { PageContainer } from "@/components/ui/page-container";
 
-const skills = ["[ ADD TECHNOLOGY SKILLS ]", "[ ADD LEGAL SKILLS ]", "[ ADD RESEARCH SKILLS ]", "[ ADD AI SKILLS ]", "[ ADD COMMUNICATION SKILLS ]", "[ ADD SYSTEM SKILLS ]"];
+const skills = ["Product strategy", "Business operations", "CRM architecture", "Network systems", "Cyber security", "Web platforms", "Workflow automation", "AI product concepts", "Research & documentation", "Customer experience"];
 
 export function SkillsSection() {
   const [compact, setCompact] = useState(true);
@@ -24,7 +24,7 @@ export function SkillsSection() {
         <div className="skills-section__intro">
           <p className="section-eyebrow"><span className="section-eyebrow__mark" aria-hidden="true" /><span className="section-eyebrow__index">04</span><DecryptedLabel text="CAPABILITIES / DISCIPLINES" /></p>
           <h2 id="skills-title">Skills &amp;<br /><span>disciplines.</span></h2>
-          <p>A focused toolkit spanning analytical research, digital systems, and clear communication.</p>
+          <p>A practical toolkit spanning operations, product strategy, technical systems, security, automation, and clear communication.</p>
         </div>
         <div className={`skills-field${compact ? " skills-field--static" : ""}`}>
           <MagnetLines

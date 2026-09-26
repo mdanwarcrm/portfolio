@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Project } from "@/types/portfolio";
 import { CometCard } from "@/components/effects/comet-card";
 import { HalftoneImage } from "@/components/ui/halftone-image";
@@ -15,8 +16,9 @@ export function ProjectCard({ project, index, featured = false }: ProjectCardPro
         <MetadataLabel label="Year" value={project.year ?? "[ ADD YEAR ]"} />
         <MetadataLabel label="Status" value={project.status ?? "[ ADD STATUS ]"} />
       </div>
-      <HalftoneImage interactive className="project-card__visual" aria-label={`${project.name} image placeholder`}>
-        <span>[ PROJECT IMAGE ]</span><span>{String(index + 1).padStart(3, "0")}</span>
+      <HalftoneImage interactive className="project-card__visual" aria-label={`${project.name} interface concept visual`}>
+        {project.image ? <Image src={project.image} alt={`${project.name} product interface concept`} fill loading="eager" sizes={featured ? "(max-width: 768px) 100vw, 66vw" : "(max-width: 768px) 100vw, 42vw"} /> : <span>[ PROJECT IMAGE ]</span>}
+        <span className="project-card__index">{String(index + 1).padStart(3, "0")}</span>
       </HalftoneImage>
       <div className="project-card__content">
         <p className="project-card__meta"><span>Project / {String(index + 1).padStart(3, "0")}</span><span>{project.role}</span></p>

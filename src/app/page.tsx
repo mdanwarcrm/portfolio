@@ -31,19 +31,19 @@ export default function Home() {
           <PageContainer className="hero__inner">
             <SectionEyebrow><DecryptedLabel text="PORTFOLIO / 2026" /></SectionEyebrow>
             <div className="hero-instrumentation" aria-label="Portfolio metadata">
-              <MetadataLabel label="Location" value="[ ADD LOCATION ]" />
-              <MetadataLabel label="Discipline" value="Law + Technology" />
-              <MetadataLabel label="Status" value="In progress" accent />
+              <MetadataLabel label="Identity" value="Dindi Narendra Kumar Madala" />
+              <MetadataLabel label="Discipline" value="Systems + Technology" />
+              <MetadataLabel label="Status" value="Building" accent />
             </div>
             <div className="hero__composition">
               <HeroInteractiveTitle />
               <HeroVisual />
             </div>
             <div className="hero__footer">
-              <p>A multidisciplinary portfolio at the intersection of analytical thinking, emerging technology, and meaningful communication.</p>
+              <p>Building systems for real problems across networks, cyber security, operations, and digital products.</p>
               <div className="hero__actions">
                 <a className="hero-button hero-button--primary cursor-target" href="#work">Explore my work <span aria-hidden="true">↘</span></a>
-                <span className="hero-button hero-button--disabled" aria-disabled="true">View resume <small>Pending</small></span>
+                <a className="hero-button cursor-target" href="#resume">View profile <span aria-hidden="true">↓</span></a>
               </div>
               <a className="scroll-cue cursor-target" href="#about"><span>Scroll</span><span aria-hidden="true">↓</span></a>
             </div>
@@ -54,10 +54,10 @@ export default function Home() {
           <PageContainer>
             <SectionLabel index="01"><DecryptedLabel text="ABOUT / PERSPECTIVE" /></SectionLabel>
             <div className="about-entry__grid">
-              <DisplayHeading id="about-title">Different fields.<br /><span>One point of view.</span></DisplayHeading>
+              <DisplayHeading id="about-title">Real problems.<br /><span>Working systems.</span></DisplayHeading>
               <div className="about-entry__copy">
-                <p>This is where the story begins—connecting law, technology, research, and communication through curiosity and deliberate problem solving.</p>
-                <p className="about-entry__note">Full narrative to follow with the dedicated About reference.</p>
+                <p>I&apos;m Dindi Narendra Kumar Madala—an entrepreneur, technologist, system builder, and problem solver. My path from transport operations to networks, cyber security, and digital products shaped a practical way of thinking: understand the real workflow first, then build technology around it.</p>
+                <p className="about-entry__note">Operations taught responsibility. Technology added leverage. Entrepreneurship connected both to outcomes.</p>
               </div>
             </div>
           </PageContainer>
@@ -71,7 +71,7 @@ export default function Home() {
             <div className="section-intro">
               <SectionEyebrow index="03"><DecryptedLabel text="SELECTED / WORK" /></SectionEyebrow>
               <DisplayHeading id="work-title"><EchoText accentLayer>Featured</EchoText><br /><span className="section-intro__outline">projects.</span></DisplayHeading>
-              <p>Project names, imagery, roles, technologies, and links remain explicitly temporary until verified content is supplied.</p>
+              <p>Six sample product stories spanning financial operations, overseas education, hospitality, and commerce—each visualised as a distinct system.</p>
             </div>
             <BentoProjects projects={portfolioContent.projects} />
           </PageContainer>

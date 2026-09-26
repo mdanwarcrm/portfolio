@@ -20,7 +20,7 @@ export function JourneyTimeline({ entries }: { entries: TimelineEntry[] }) {
         <div className="journey-section__intro">
           <SectionEyebrow index="02"><DecryptedLabel text="CHAPTER / JOURNEY" /></SectionEyebrow>
           <h2 id="journey-title">My<br /><span>journey.</span></h2>
-          <p>A structured record of education, experience, technology, and the work that shaped the current direction. Verified details are still pending.</p>
+          <p>A working journey from field operations to digital infrastructure, security thinking, and practical product building.</p>
         </div>
         <div ref={timelineRef} className="journey-timeline">
           <div className="journey-beam" aria-hidden="true"><motion.span style={{ scaleY: progress }} /></div>

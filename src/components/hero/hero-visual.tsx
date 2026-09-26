@@ -37,12 +37,12 @@ export function HeroVisual() {
 
   return (
     <div className="hero-visual-stage cursor-target" onPointerMove={handlePointerMove} onPointerLeave={resetTilt}>
-      <TechnicalRuler start="Identity" end="Portrait / Pending" />
-      <div ref={visualRef} className="hero-visual" aria-label="Temporary portrait or project visual placeholder">
+      <TechnicalRuler start="Identity" end="Founder / Builder" />
+      <div ref={visualRef} className="hero-visual" aria-label="Abstract founder portrait representing systems, technology, and entrepreneurship">
         <div className="hero-visual__back" aria-hidden="true" />
         <div className="hero-visual__frame">
           <HalftoneReveal
-            src="/identity-placeholder.png"
+            src="/images/portfolio/hero-identity.png"
             inkColor="#050505"
             paperColor="#d9d9d9"
             mode="mono"
@@ -53,13 +53,13 @@ export function HeroVisual() {
             shape="circle"
             contrast={1.15}
             trigger={interactive ? "hover" : "off"}
-            idleReveal={interactive ? 0 : 0.12}
+            idleReveal={0.72}
             borderRadius="0"
             style={{}}
           />
-          <span className="hero-visual__asset-label">[ PORTRAIT / VISUAL ] <small>Asset pending</small></span>
+          <span className="hero-visual__asset-label">[ IDENTITY / SYSTEMS ] <small>DNKM</small></span>
         </div>
-        <p className="hero-visual__meta"><span>Profile / 001</span><span>Multidisciplinary</span></p>
+        <p className="hero-visual__meta"><span>Profile / DNKM</span><span>Builder / Entrepreneur</span></p>
       </div>
     </div>
   );

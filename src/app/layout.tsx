@@ -11,11 +11,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: { default: "DNK — Portfolio", template: "%s | DNK Portfolio" },
-  description: "An interactive portfolio exploring law, technology, research, and creative problem solving.",
+  title: { default: "Dindi Narendra Kumar Madala — Entrepreneur & Technologist", template: "%s | DNKM Portfolio" },
+  description: "The interactive portfolio of Dindi Narendra Kumar Madala—entrepreneur, technologist, system builder, and creator of practical digital products.",
   openGraph: {
-    title: "DNK — Portfolio",
-    description: "An interactive portfolio exploring law, technology, research, and creative problem solving.",
+    title: "Dindi Narendra Kumar Madala — Entrepreneur & Technologist",
+    description: "Building systems for real problems across networks, cyber security, operations, and digital products.",
     type: "website",
   },
 };

@@ -32,10 +32,10 @@ export function HeroInteractiveTitle() {
   }, []);
 
   return (
-    <h1 id="hero-title" className="hero-interactive-title" aria-label="Law and technology. Research and AI.">
+    <h1 id="hero-title" className="hero-interactive-title" aria-label="Dindi Narendra Kumar Madala. Entrepreneur and technologist.">
       <span className="hero-interactive-title__pressure cursor-target">
         <TextPressure
-          text="LAW × TECH"
+          text="NARENDRA"
           fontFamily="Roboto Flex, General Sans, sans-serif"
           flex
           width
@@ -51,7 +51,7 @@ export function HeroInteractiveTitle() {
       <span ref={proximityRef} className="hero-interactive-title__proximity">
         {interactive ? (
           <VariableProximityEffect
-            label="RESEARCH × AI"
+            label="ENTREPRENEUR × TECHNOLOGIST"
             fromFontVariationSettings="'wght' 420, 'wdth' 100"
             toFontVariationSettings="'wght' 700, 'wdth' 106"
             containerRef={proximityRef}
@@ -60,7 +60,7 @@ export function HeroInteractiveTitle() {
             style={{ fontFamily: "Roboto Flex, General Sans, sans-serif" }}
           />
         ) : (
-          <span>RESEARCH × AI</span>
+          <span>ENTREPRENEUR × TECHNOLOGIST</span>
         )}
       </span>
     </h1>
