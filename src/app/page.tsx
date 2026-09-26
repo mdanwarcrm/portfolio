@@ -7,6 +7,8 @@ import { IntroLoader } from "@/components/intro-loader";
 import { JourneyTimeline } from "@/components/journey-timeline";
 import { ProfessionalSections } from "@/components/professional-sections";
 import { BentoProjects } from "@/components/projects/bento-projects";
+import { AllProjects } from "@/components/all-projects";
+import { ClientsHighlights } from "@/components/clients-highlights";
 import { SiteNavigation } from "@/components/site-navigation";
 import { SkillsSection } from "@/components/skills-section";
 import { DisplayHeading } from "@/components/ui/display-heading";
@@ -77,8 +79,10 @@ export default function Home() {
           </PageContainer>
         </section>
 
+        <AllProjects />
         <SkillsSection />
         <ProfessionalSections />
+        <ClientsHighlights />
       </main>
       <FooterContact />
     </>

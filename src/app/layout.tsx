@@ -11,11 +11,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: { default: "Dindi Narendra Kumar Madala — Entrepreneur & Technologist", template: "%s | DNKM Portfolio" },
-  description: "The interactive portfolio of Dindi Narendra Kumar Madala—entrepreneur, technologist, system builder, and creator of practical digital products.",
+  title: { default: "Dindi Narendra Kumar Madala — Entrepreneur & Technology Professional", template: "%s | DNKM Portfolio" },
+  description: "Entrepreneur and technology professional with experience across network engineering, cyber security, business operations and digital product development.",
   openGraph: {
-    title: "Dindi Narendra Kumar Madala — Entrepreneur & Technologist",
-    description: "Building systems for real problems across networks, cyber security, operations, and digital products.",
+    title: "Dindi Narendra Kumar Madala — Entrepreneur & Technology Professional",
+    description: "Entrepreneur and technology professional with experience across network engineering, cyber security, business operations and digital product development.",
     type: "website",
   },
 };

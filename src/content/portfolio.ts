@@ -1,4 +1,6 @@
 import type { PortfolioContent } from "@/types/portfolio";
+import { education } from "@/data/education";
+import { experience } from "@/data/experience";
 
 export const portfolioContent = {
   site: { shortName: "DNKM", year: 2026 },
@@ -27,14 +29,8 @@ export const portfolioContent = {
     { period: "2021—2023", category: "Cyber Security", title: "Thinking in risks and controls", organization: "Security learning & practice", description: "Developed a security-first mindset: observe systems, understand attack surfaces, reduce risk, and document clearly.", metadata: ["Phase / 03", "Security mindset"] },
     { period: "2023—Now", category: "Entrepreneurship", title: "Building digital products", organization: "Independent ventures", description: "Combining operational experience, technology, and business thinking to create practical products for real problems.", metadata: ["Phase / 04", "Current"] },
   ],
-  experience: [
-    { period: "2023—Now", category: "Entrepreneurship", title: "Founder & Product Builder", organization: "Independent digital ventures", description: "Designing product strategy, operational workflows, customer journeys, and implementation plans across service and software businesses." },
-    { period: "2019—2023", category: "Technology", title: "Networks & Cyber Security", organization: "Technical operations", description: "Worked across network troubleshooting, systems thinking, documentation, and security-focused problem solving." },
-    { period: "2016—2019", category: "Operations", title: "Transport Operations", organization: "Field operations", description: "Coordinated moving parts, schedules, stakeholders, and day-to-day operational decisions in a real-world environment." },
-  ],
-  education: [
-    { period: "Continuous", category: "Applied Learning", title: "Technology, security & product systems", organization: "Independent study and project practice", description: "Ongoing hands-on learning across web products, network operations, cyber security, automation, AI, and entrepreneurship." },
-  ],
+  experience,
+  education,
   achievements: [
     { period: "15", title: "Product concepts", organization: "Portfolio laboratory", detail: "Six featured platforms and nine applied product experiments." },
     { period: "4", title: "Operating domains", organization: "Operations to products", detail: "Transport, networks, cyber security, and digital ventures." },

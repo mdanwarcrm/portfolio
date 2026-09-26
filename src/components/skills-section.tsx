@@ -4,8 +4,7 @@ import { useEffect, useState } from "react";
 import MagnetLines from "@/components/effects/MagnetLines";
 import { DecryptedLabel } from "@/components/effects/decrypted-label";
 import { PageContainer } from "@/components/ui/page-container";
-
-const skills = ["Product strategy", "Business operations", "CRM architecture", "Network systems", "Cyber security", "Web platforms", "Workflow automation", "AI product concepts", "Research & documentation", "Customer experience"];
+import { skillGroups } from "@/data/skills";
 
 export function SkillsSection() {
   const [compact, setCompact] = useState(true);
@@ -22,7 +21,7 @@ export function SkillsSection() {
     <section id="skills" className="skills-section" aria-labelledby="skills-title">
       <PageContainer className="skills-section__grid">
         <div className="skills-section__intro">
-          <p className="section-eyebrow"><span className="section-eyebrow__mark" aria-hidden="true" /><span className="section-eyebrow__index">04</span><DecryptedLabel text="CAPABILITIES / DISCIPLINES" /></p>
+          <p className="section-eyebrow"><span className="section-eyebrow__mark" aria-hidden="true" /><span className="section-eyebrow__index">07</span><DecryptedLabel text="CAPABILITIES / DISCIPLINES" /></p>
           <h2 id="skills-title">Skills &amp;<br /><span>disciplines.</span></h2>
           <p>A practical toolkit spanning operations, product strategy, technical systems, security, automation, and clear communication.</p>
         </div>
@@ -38,7 +37,7 @@ export function SkillsSection() {
             interactive={!compact}
           />
           <ul aria-label="Skills and disciplines">
-            {skills.map((skill, index) => <li key={skill}><span>{String(index + 1).padStart(2, "0")}</span>{skill}</li>)}
+            {skillGroups.map((group, index) => <li className="skill-group" key={group.name}><span>{String(index + 1).padStart(2, "0")}</span><div><strong>{group.name}</strong><p>{group.items.join(" / ")}</p></div></li>)}
           </ul>
         </div>
       </PageContainer>
