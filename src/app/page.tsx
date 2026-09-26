@@ -19,6 +19,7 @@ import { SectionEyebrow } from "@/components/ui/section-eyebrow";
 import { SectionLabel } from "@/components/ui/section-label";
 import { TechnicalRuler } from "@/components/ui/technical-ruler";
 import { portfolioContent } from "@/content/portfolio";
+import { VoiceProfileCTA } from "@/components/voice/voice-profile-cta";
 
 export default function Home() {
   return (
@@ -49,6 +50,7 @@ export default function Home() {
               </div>
               <a className="scroll-cue cursor-target" href="#about"><span>Scroll</span><span aria-hidden="true">↓</span></a>
             </div>
+            <VoiceProfileCTA />
           </PageContainer>
         </section>
 

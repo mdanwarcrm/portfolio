@@ -6,7 +6,7 @@ import { SectionEyebrow } from "./ui/section-eyebrow";
 
 export function ClientsHighlights() {
   return <>
-    <section className="clients-section" aria-labelledby="clients-title"><PageContainer>
+    <section id="clients" className="clients-section" aria-labelledby="clients-title"><PageContainer>
       <SectionEyebrow index="10"><DecryptedLabel text="SELECTED / CLIENT ENVIRONMENTS" /></SectionEyebrow>
       <h2 id="clients-title">UK client<br /><span>environments.</span></h2>
       <p className="clients-section__context">Worked across these United Kingdom client environments as a Network Engineer and Security Analyst.</p>
