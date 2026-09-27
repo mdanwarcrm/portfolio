@@ -108,7 +108,7 @@ def build():
     identity = [P("PROFESSIONAL RESUME AND PROJECT PORTFOLIO", "Kicker"),
                 P("DINDI NARENDRA<br/>KUMAR MADALA", "Name"),
                 P("ENTREPRENEUR  /  TECHNOLOGY PROFESSIONAL  /  SYSTEM BUILDER", "Role"),
-                P("+91 85208 46598  |  ceo@bdits.in<br/><link href='https://github.com/mdanwarcrm/portfolio' color='#00875A'>github.com/mdanwarcrm/portfolio</link>", "Contact")]
+                P("+91 85208 46598  |  ceo@bdits.in<br/><link href='https://portfolio-three-tan-ah4e90meuf.vercel.app/#top' color='#00875A'><b>Digital Portfolio</b></link>  |  <link href='https://github.com/mdanwarcrm/portfolio' color='#00875A'>GitHub</link>", "Contact")]
     portrait = Image(str(PORTRAIT), width=45 * mm, height=55 * mm)
     hero = Table([[identity, portrait]], colWidths=[126 * mm, 49 * mm])
     hero.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "MIDDLE"), ("LEFTPADDING", (0, 0), (-1, -1), 0),
@@ -182,7 +182,7 @@ def build():
     cap_table.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 5),
                                    ("RIGHTPADDING", (0, 0), (-1, -1), 5), ("TOPPADDING", (0, 0), (-1, -1), 1),
                                    ("BOTTOMPADDING", (0, 0), (-1, -1), 1)]))
-    story += [cap_table, Spacer(1, 3 * mm), P("<b><font color='#00875A'>CONTACT</font></b>  ceo@bdits.in  |  +91 85208 46598  |  <link href='https://github.com/mdanwarcrm/portfolio' color='#00875A'>github.com/mdanwarcrm/portfolio</link>", "Contact")]
+    story += [cap_table, Spacer(1, 3 * mm), P("<b><font color='#00875A'>CONTACT</font></b>  ceo@bdits.in  |  +91 85208 46598  |  <link href='https://portfolio-three-tan-ah4e90meuf.vercel.app/#top' color='#00875A'><b>Digital Portfolio</b></link>  |  <link href='https://github.com/mdanwarcrm/portfolio' color='#00875A'>GitHub</link>", "Contact")]
     doc.build(story)
     shutil.copy2(PDF, ROOT / "public" / "resume.pdf")
     print(PDF)
